@@ -1,0 +1,117 @@
+{
+  "name": "lock",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@mui/icons-material": "^5.15.2",
+    "@mui/material": "^5.15.2",
+    "@react-three/drei": "^9.107.0",
+    "@react-three/fiber": "^8.16.8",
+    "@reduxjs/toolkit": "^2.2.5",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.35",
+    "@solana/wallet-adapter-wallets": "^0.19.32",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@tsparticles/engine": "^3.4.0",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.4.0",
+    "@web3modal/wagmi": "^3.5.4",
+    "animated-number-react": "^0.1.2",
+    "autoprefixer": "^10.4.19",
+    "axios": "^1.6.8",
+    "BigInt": "^5.5.3",
+    "browserify-zlib": "^0.2.0",
+    "bs58": "^5.0.0",
+    "buffer": "^6.0.3",
+    "clsx": "^2.1.1",
+    "crypto-browserify": "^3.12.0",
+    "formik": "^2.4.6",
+    "framer-motion": "^11.2.10",
+    "gsap": "^3.12.5",
+    "https-browserify": "^1.0.0",
+    "js-cookie": "^3.0.5",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "postcss": "^8.4.38",
+    "process": "^0.11.10",
+    "qrcode.react": "^3.1.0",
+    "react": "^18.2.0",
+    "react-app-rewired": "^2.2.1",
+    "react-barcode": "^1.5.3",
+    "react-casino-roulette": "^1.1.2",
+    "react-confetti": "^6.1.0",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-custom-roulette": "^1.4.1",
+    "react-dom": "^18.2.0",
+    "react-fontawesome": "^1.7.1",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.2.1",
+    "react-js-loader": "^0.1.3",
+    "react-modal": "^3.16.1",
+    "react-redux": "^9.1.2",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.21.1",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.8.0",
+    "react-slick": "^0.30.2",
+    "react-speech-kit": "^3.0.1",
+    "react-spinners": "^0.14.1",
+    "react-toastify": "^9.1.3",
+    "redux": "^5.0.1",
+    "rpc-websockets": "7.11.0",
+    "siwe": "^2.3.2",
+    "socket.io-client": "^4.7.5",
+    "stream-http": "^3.2.0",
+    "tailwind-merge": "^2.3.0",
+    "three": "^0.165.0",
+    "url": "^0.11.3",
+    "viem": "^1.21.4",
+    "wagmi": "^1.4.13",
+    "web-vitals": "^2.1.4",
+    "web3": "^4.3.0",
+    "yup": "^1.4.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "overrides": {
+    "@ledgerhq/errors": "6.16.3"
+  },
+  "browser": {
+    "process": "process/browser"
+  },
+  
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "ajv": "^7.2.4",
+    "tailwindcss": "^3.4.4"
+  }
+}
